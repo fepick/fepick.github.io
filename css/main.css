@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Noto Sans KR', 'Source Sans Pro', sans-serif;
+}
+
+
+.wrapper {
+    background-color: beige;
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: 2px;
+}
+
+/* 모바일 대응 */
+@media (min-width: 1200px){
+    
+}
+@media (max-width: 320px){
+
+}
