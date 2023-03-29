@@ -4,6 +4,9 @@
     font-family: 'Noto Sans KR', 'Source Sans Pro', sans-serif;
 }
 
+body{
+    background-color: rgb(70, 70, 70);
+}
 
 .wrapper {
     background-color: beige;
