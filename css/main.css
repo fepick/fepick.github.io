@@ -4,6 +4,7 @@
     font-family: 'Noto Sans KR', 'Source Sans Pro', sans-serif;
     border: 0;
     margin: 0;
+    padding: 0;
 }
 
 body{
@@ -30,17 +31,33 @@ body{
     height: 50%;
     transform: translate(0%,50%);
 }
-#dialog{
+.dialog{
     background-color: black;
     color: white;
     border-radius: 2em;
     opacity: 0.8;
-    padding: 2em;
+    padding: 1em 2em;
+    outline-style: none;
     position: absolute;
-    outline-style: groove;
-    outline-color: red;
     z-index: 4;
-    width: 80%;
+
+    width: auto;
     height: 25%;
-    transform: translate(10%,200%);
+    left: 3%;
+    right: 3%;
+    bottom: 3%;
+}
+#dialog-name{
+    font-size: 2em;
+}
+#dialog-text{
+    font-size: 1.5em;
+}
+#dialog-next{
+    width: 0;
+    height: 0;
+    border-bottom: 1em solid transparent;
+    border-top: 1em solid white;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
 }
