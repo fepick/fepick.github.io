@@ -17,6 +17,12 @@ body{
     outline-color: red;
     outline-width: 2px;
 }
+.wrapper img{
+    outline-style: groove;
+    outline-width: 1em;
+    width: 25%;
+    margin: 3%;
+}
 
 #background{
     position: absolute;
@@ -31,6 +37,14 @@ body{
     height: 50%;
     transform: translate(0%,50%);
 }
+.status{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    z-index: 4;
+}
+
 .dialog{
     background-color: black;
     color: white;

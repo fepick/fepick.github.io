@@ -25,6 +25,10 @@
 <body>
     <main>
         <div class="game">
+            <audio onloadstart="this.volume=0.1" autoplay src="sound/music/1.mp3"></audio>
+            <div class="status">
+                킹받은 횟수 : <span id="kingbad">0</span>회
+            </div>
             <img id="background" src="img/backgrounds/1.jpg" alt="">
             <img id="character" src="img/characters/1.png" alt="">
             <div class="dialog">

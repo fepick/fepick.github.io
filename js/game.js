@@ -1,9 +1,13 @@
 //대화넘기기
 let click = document.querySelector(".dialog");
 
+var kingbadcounter = 0;
+
 click.onclick = function(){
     console.log("텍스트눌림");
     var dialog_text = document.querySelector("#dialog-text");
+    kingbadcounter++;
+    document.querySelector("#kingbad").innerHTML = kingbadcounter;
     if(dialog_text.innerHTML==="네가뭘할수있는데ㅋㅋ"){
         dialog_text.innerHTML = "킹받아도 어쩔 수 없어. 네가 뭘 할 수 있겠어??"
     }
@@ -12,7 +16,15 @@ click.onclick = function(){
     }
 }
 
+//JSON읽어서 슬라이드 만들기
+
+
+
 //애니메이션
+
+//불안하게 움직이기
+//커졌다가 작아지기
+
 
 //bgm
 

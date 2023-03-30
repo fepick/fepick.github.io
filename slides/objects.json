@@ -1,0 +1,28 @@
+{
+    "characters":[
+        {
+            "name": "키시버드",
+            "age": 3,
+            "description": "킹받게 생겼다"
+        },
+        {
+            "name": "김벌렝",
+            "age": 26,
+            "description": "어딘가 믿을 수 없게 생겼다"
+        }
+    ],
+    "gifts":[
+        {
+            "name": "딸기",
+            "description": "키시버드가 좋아한다. 선물하면 좋은 일이 생길지도??"
+        },
+        {
+            "name": "상한 딸기",
+            "description": "썩은내가 진동하지만 버리는 기능은 미구현이다"
+        },
+        {
+            "name": "몽둥이",
+            "description": "매가 약이라는 말이 있다"
+        }
+    ]
+}

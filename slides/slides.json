@@ -1,0 +1,18 @@
+{
+    "slides":[
+        {
+            "number": 1,
+            "position": "center",
+            "character": "키시버드",
+            "background": "1.png",
+            "dialog": "킹받아도 어쩔 수 없어. 네가 뭘 할 수 있겠어??"
+        },
+        {
+            "number": 2,
+            "position": "center",
+            "character": "키시버드",
+            "background": "1.png",
+            "dialog": "네가 뭘 할 수 있냐고ㅋㅋ"
+        }
+    ]
+}
