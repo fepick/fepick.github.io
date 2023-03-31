@@ -6,6 +6,7 @@ var kingbadcounter = 0;
 click.onclick = function(){
     console.log("텍스트눌림");
     var dialog_text = document.querySelector("#dialog-text");
+    new Audio("../sound/effects/next.mp3").play();
     kingbadcounter++;
     document.querySelector("#kingbad").innerHTML = kingbadcounter;
     if(dialog_text.innerHTML==="네가뭘할수있는데ㅋㅋ"){
@@ -17,6 +18,9 @@ click.onclick = function(){
 }
 
 //JSON읽어서 슬라이드 만들기
+var slideCounter=1;
+
+
 
 
 
